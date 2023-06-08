@@ -16,21 +16,17 @@
             "keys": "ctrl+c"
         },
         {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
             "command": 
             {
                 "action": "splitPane",
                 "split": "down",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+h"
-        },
-        {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "toggleSplitOrientation",
-            "keys": "alt+shift+p"
+            "keys": "alt+shift+minus"
         },
         {
             "command": 
@@ -39,7 +35,11 @@
                 "split": "right",
                 "splitMode": "duplicate"
             },
-            "keys": "alt+shift+v"
+            "keys": "alt+shift+\\"
+        },
+        {
+            "command": "toggleSplitOrientation",
+            "keys": "alt+shift+p"
         }
     ],
     "alwaysShowNotificationIcon": true,
@@ -80,13 +80,13 @@
                 "elevate": true,
                 "font": 
                 {
-                    "face": "CaskaydiaCove Nerd Font Mono",
+                    "face": "JetBrainsMono Nerd Font",
                     "size": 14.0
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "opacity": 80,
+                "opacity": 85,
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%REPOS%"
             },
@@ -165,6 +165,22 @@
                 "name": "Ubuntu (Root)",
                 "opacity": 75,
                 "startingDirectory": "~"
+            },
+            {
+                "commandline": "C:\\Program Files\\Alacritty\\alacritty.exe",
+                "guid": "{a4555e19-4ae8-4ce3-ab5a-55cc0b327d2f}",
+                "hidden": false,
+                "icon": "C:\\dev\\Apps\\Alacritty\\alacritty-term.png",
+                "name": "Alcritty",
+                "startingDirectory": "C:\\dev"
+            },
+            {
+                "commandline": "C:\\Program Files\\WezTerm\\wezterm.exe",
+                "guid": "{c06d03f7-8479-4dfa-8169-da6becfee422}",
+                "hidden": false,
+                "icon": "C:\\dev\\Apps\\$W\\terminal.png",
+                "name": "$W",
+                "startingDirectory": "C:\\dev"
             }
         ]
     },

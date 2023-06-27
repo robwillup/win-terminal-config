@@ -47,7 +47,7 @@
     "copyOnSelect": true,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
     "launchMode": "maximized",
-    "minimizeToNotificationArea": true,
+    "minimizeToNotificationArea": false,
     "newTabMenu": 
     [
         {
@@ -63,21 +63,11 @@
         "list": 
         [
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": false,
-                "name": "Windows PowerShell"
-            },
-            {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
+                "adjustIndistinguishableColors": "indexed",
                 "backgroundImage": "C:\\Users\\rwill\\OneDrive\\Pictures\\Personal\\Wallpapers\\Sonic3.jpg",
                 "backgroundImageOpacity": 0.0,
                 "elevate": true,
+                "experimental.retroTerminalEffect": true,
                 "font": 
                 {
                     "face": "JetBrainsMono Nerd Font",
@@ -88,31 +78,13 @@
                 "name": "PowerShell",
                 "opacity": 85,
                 "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "%REPOS%"
+                "startingDirectory": "%USERPROFILE%/dev"
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "guid": "{63e31163-583f-5850-9c1e-24e227dd2da9}",
-                "hidden": false,
-                "name": "PowerShell (dotnet global)",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "guid": "{4038b27e-843c-58da-8a4e-e38ed1d45142}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{72fee68d-3f3a-55b7-951b-422340a306b8}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
+                "name": "Command Prompt"
             },
             {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
@@ -137,19 +109,6 @@
                 "startingDirectory": "~"
             },
             {
-                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
-                "hidden": true,
-                "name": "Visual Studio Debug Console",
-                "source": "VSDebugConsole"
-            },
-            {
-                "elevate": true,
-                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
-            },
-            {
                 "bellStyle": "window",
                 "colorScheme": "Campbell",
                 "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu -u root",
@@ -167,20 +126,21 @@
                 "startingDirectory": "~"
             },
             {
-                "commandline": "C:\\Program Files\\Alacritty\\alacritty.exe",
-                "guid": "{a4555e19-4ae8-4ce3-ab5a-55cc0b327d2f}",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
-                "icon": "C:\\dev\\Apps\\Alacritty\\alacritty-term.png",
-                "name": "Alcritty",
-                "startingDirectory": "C:\\dev"
+                "name": "Windows PowerShell"
             },
             {
-                "commandline": "C:\\Program Files\\WezTerm\\wezterm.exe",
-                "guid": "{c06d03f7-8479-4dfa-8169-da6becfee422}",
+                "guid": "{21594543-adc3-5b03-b25c-1d0d8a550601}",
                 "hidden": false,
-                "icon": "C:\\dev\\Apps\\$W\\terminal.png",
-                "name": "$W",
-                "startingDirectory": "C:\\dev"
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{72f699db-e5b1-553c-b01f-97d1a14d9630}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
